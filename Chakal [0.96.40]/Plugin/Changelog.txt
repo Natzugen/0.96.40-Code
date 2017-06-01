@@ -1,0 +1,21 @@
+//================================================================================
+//Projeto Plugin System 97d+99
+//================================================================================
+- Sabado, 24 de janero de 2010:
+*Projeto Iniciado.
+*Plugin.ini adicionado.
+*Criação da conexão com o SQL.
+*Offsets adicionado e organizados.
+*Criação das Classes.
+*Object Struct adicionado.
+*ProtocolCore adicionado.
+*Sistema de Noticia de Boas Vindas Adicionado.
+*Sistema de Noticia de GM/ADM Adicionado.
+*Sistema de Replay Noticia.
+*Sistema de exp & drop vip no mesmo gameserver adicionado.
+
+- Sabado, 25 de janero de 2010:
+*Comando /serverinfo adicionado.
+*comando /post adicionado.
+*comando /addxx adicinado.
+*Comando /sair adicionado.

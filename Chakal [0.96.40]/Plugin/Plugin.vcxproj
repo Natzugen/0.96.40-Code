@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C779544-AD03-441A-B742-5BD3C6D3BB34}</ProjectGuid>
+    <RootNamespace>Plugin</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Protocol.cpp" />
+    <ClCompile Include="GameServer.cpp" />
+    <ClCompile Include="mssql.cpp" />
+    <ClCompile Include="settings.cpp" />
+    <ClCompile Include="Plugin.cpp" />
+    <ClCompile Include="ChatCore.cpp" />
+    <ClCompile Include="Fixes.cpp" />
+    <ClCompile Include="Funções.cpp" />
+    <ClCompile Include="ingame.cpp" />
+    <ClCompile Include="Setting.cpp" />
+    <ClCompile Include="Customs.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="DropRate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Protocol.h" />
+    <ClInclude Include="GameServer.h" />
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="mssql.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="sqlapi.h" />
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="Fixes.h" />
+    <ClInclude Include="Funções.h" />
+    <ClInclude Include="ingame.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="Setting.h" />
+    <ClInclude Include="Customs.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="DropRate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sqlapi.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Changelog.txt" />
+    <None Include="Plugin.ini" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{a5aa4679-3324-4cc4-b60e-d8c5f9e4a19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{4b738902-58eb-4b73-8f3c-897d417882e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer">
+      <UniqueIdentifier>{d8ec7029-d5d8-45f1-bbbd-758de3abd151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mssql">
+      <UniqueIdentifier>{8fa0134e-812f-440a-8f72-f238c14d1ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugin">
+      <UniqueIdentifier>{05297657-fd77-4e38-8784-726e884955e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{289d5cfe-d54d-4360-a44c-704573d4db0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fixes">
+      <UniqueIdentifier>{b69d0772-40f2-4b82-93c2-9580b4096ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Funções">
+      <UniqueIdentifier>{1ebee4a2-e928-46f5-86e7-5d87f6c68a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InGame">
+      <UniqueIdentifier>{befc1836-221a-48fe-a839-583595e02559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Usuario &amp; Items">
+      <UniqueIdentifier>{6c9107e3-89d3-4695-ab19-f12d96b4f8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{fe97f01b-abd7-4067-a909-1512dc163f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Customs">
+      <UniqueIdentifier>{ae90ca5d-c687-442b-8700-4d57e1dda808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{8e63ebe0-65e1-4539-8685-b3ee30b4def4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DropRate">
+      <UniqueIdentifier>{c99efa9f-a999-4404-9d29-4f436417374a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="mssql.cpp">
+      <Filter>mssql</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>mssql</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugin.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatCore.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Fixes.cpp">
+      <Filter>Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Funções.cpp">
+      <Filter>Funções</Filter>
+    </ClCompile>
+    <ClCompile Include="ingame.cpp">
+      <Filter>InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Customs.cpp">
+      <Filter>Customs</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="DropRate.cpp">
+      <Filter>DropRate</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServer.h">
+      <Filter>GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="mssql.h">
+      <Filter>mssql</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>mssql</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlapi.h">
+      <Filter>mssql</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Fixes.h">
+      <Filter>Fixes</Filter>
+    </ClInclude>
+    <ClInclude Include="Funções.h">
+      <Filter>Funções</Filter>
+    </ClInclude>
+    <ClInclude Include="ingame.h">
+      <Filter>InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Usuario &amp; Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Customs.h">
+      <Filter>Customs</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="DropRate.h">
+      <Filter>DropRate</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sqlapi.lib">
+      <Filter>mssql</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Changelog.txt">
+      <Filter>Plugin</Filter>
+    </None>
+    <None Include="Plugin.ini">
+      <Filter>Plugin</Filter>
+    </None>
+  </ItemGroup>
+</Project>
