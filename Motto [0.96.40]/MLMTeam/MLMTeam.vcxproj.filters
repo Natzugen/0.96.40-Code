@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Inicio">
+      <UniqueIdentifier>{1fe24c5b-f6d3-40e4-91e1-0e6080558774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SQL">
+      <UniqueIdentifier>{aefda40e-8156-475c-a627-4d88a912f20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NPC">
+      <UniqueIdentifier>{ccb9a139-83fe-49ac-a58b-1a0e1d7a0317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StdAfx">
+      <UniqueIdentifier>{a25e042a-c82b-48b7-b40d-d8e99a4c3709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Customs">
+      <UniqueIdentifier>{7c6eb125-dbfc-4188-8eff-3989551bfff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Defines">
+      <UniqueIdentifier>{31c0ad18-c9b7-4ffc-a06b-3ae92ac2a7fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fixes">
+      <UniqueIdentifier>{5dc50abb-83cd-4b3f-a9fe-84c16d94a4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameServer">
+      <UniqueIdentifier>{aa3060a8-fec1-48b2-9081-d81d2088426f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Funções">
+      <UniqueIdentifier>{f76d18b1-f2fd-4df1-a837-6f85906e0ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\User">
+      <UniqueIdentifier>{b80910cb-5aee-46aa-9593-e1cf0a0e7fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Global">
+      <UniqueIdentifier>{e525386c-df12-4f75-970d-376f9704be57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Struct">
+      <UniqueIdentifier>{84b7349c-f74b-4e31-bf83-985c3d05e203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Comandos">
+      <UniqueIdentifier>{35bcccfc-0c47-40ef-92ad-54ebb893dd34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\INIs">
+      <UniqueIdentifier>{2cf95f27-59a8-48c2-aef8-06d34cc337d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mapas">
+      <UniqueIdentifier>{1268e2ad-5e9f-406b-b156-99db9726e980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mapas\NewMaps">
+      <UniqueIdentifier>{43663497-d2df-47e9-ba93-7ac3f542ec33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Inicio</Filter>
+    </ClCompile>
+    <ClCompile Include="SQL.cpp">
+      <Filter>Source Files\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>Source Files\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Customs.cpp">
+      <Filter>Source Files\Customs</Filter>
+    </ClCompile>
+    <ClCompile Include="Defines.cpp">
+      <Filter>Source Files\Defines</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Source Files\Funções</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.cpp">
+      <Filter>Source Files\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatCore.cpp">
+      <Filter>Source Files\Comandos</Filter>
+    </ClCompile>
+    <ClCompile Include="mapas.cpp">
+      <Filter>Source Files\Mapas</Filter>
+    </ClCompile>
+    <ClCompile Include="MLMMaps.cpp">
+      <Filter>Source Files\Mapas\NewMaps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Source Files\Inicio</Filter>
+    </ClInclude>
+    <ClInclude Include="SQL.h">
+      <Filter>Source Files\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI.h">
+      <Filter>Source Files\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="Customs.h">
+      <Filter>Source Files\Customs</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Source Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServer.h">
+      <Filter>Source Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Source Files\Funções</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Source Files\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Source Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Source Files\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="mapas.h">
+      <Filter>Source Files\Mapas</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sqlapi.lib">
+      <Filter>Source Files\SQL</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MLMData\MLMComandos.ini">
+      <Filter>Source Files\INIs</Filter>
+    </None>
+    <None Include="Debug\vc90.pdb" />
+  </ItemGroup>
+</Project>
