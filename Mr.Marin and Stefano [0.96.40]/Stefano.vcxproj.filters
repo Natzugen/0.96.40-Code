@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameServer">
+      <UniqueIdentifier>{873c2dba-066b-44ee-befa-73e55ea588c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\GameServer">
+      <UniqueIdentifier>{51a77340-0d69-414a-8dfb-78c48d3791fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\Structs">
+      <UniqueIdentifier>{642bb3f9-1eeb-4d25-87d4-b733a7b8898e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\Adds">
+      <UniqueIdentifier>{cb9be2e9-1828-4677-b805-f524e0c1df70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameServer\Msgs">
+      <UniqueIdentifier>{a6ad97bc-226c-424f-87ec-72b86805283e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilidades">
+      <UniqueIdentifier>{4b348185-3a4c-4662-8608-ff222a949dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{ec7d4499-c1a1-4dbd-b38e-000b50c5c9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\Struct">
+      <UniqueIdentifier>{460a8b5f-b775-4761-837d-a29b4cfdb5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\ChatCore">
+      <UniqueIdentifier>{062f594e-3e43-4beb-8126-17a6d8a12821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\Logs">
+      <UniqueIdentifier>{93d1a102-ada7-4912-8346-debc1af2560d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\WindowForm">
+      <UniqueIdentifier>{2cbe7a8b-b1b8-4d18-81e3-d304dcd3ef17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZZZConfigs">
+      <UniqueIdentifier>{d68f3c29-cc3a-4568-af63-172918f6297a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQL">
+      <UniqueIdentifier>{73b1d9cb-3714-4912-9f47-cf02433503bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>GameServer\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcTalk.cpp">
+      <Filter>GameServer\Adds</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgSend.cpp">
+      <Filter>GameServer\Msgs</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilidades.cpp">
+      <Filter>Utilidades</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.cpp">
+      <Filter>DLL\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatCore.cpp">
+      <Filter>DLL\ChatCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp">
+      <Filter>DLL\ChatCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GMCommands.cpp">
+      <Filter>DLL\ChatCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>DLL\Logs</Filter>
+    </ClCompile>
+    <ClCompile Include="Window1.cpp">
+      <Filter>DLL\WindowForm</Filter>
+    </ClCompile>
+    <ClCompile Include="SQL.cpp">
+      <Filter>SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameServer.h">
+      <Filter>GameServer\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>GameServer\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>GameServer\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgSend.h">
+      <Filter>GameServer\Msgs</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilidades.h">
+      <Filter>Utilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>DLL\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatCore.h">
+      <Filter>DLL\ChatCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>DLL\Logs</Filter>
+    </ClInclude>
+    <ClInclude Include="FormFuncs.h">
+      <Filter>DLL\WindowForm</Filter>
+    </ClInclude>
+    <ClInclude Include="Window1.h">
+      <Filter>DLL\WindowForm</Filter>
+    </ClInclude>
+    <ClInclude Include="SQL.h">
+      <Filter>SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLAPI.h">
+      <Filter>SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Configs\Commands.ini">
+      <Filter>ZZZConfigs</Filter>
+    </None>
+    <None Include="..\Configs\GameServer.ini">
+      <Filter>ZZZConfigs</Filter>
+    </None>
+    <None Include="..\Configs\Messages.ini">
+      <Filter>ZZZConfigs</Filter>
+    </None>
+    <None Include="..\Configs\NpcConfigs.ini">
+      <Filter>ZZZConfigs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sqlapi.lib">
+      <Filter>SQL</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
